@@ -1,20 +1,14 @@
-import claire from "./assets/images/clairetest.webp"
+import claire from "../assets/images/clairetest.webp"
+import { Link } from "react-router-dom"
+import Navbar from "../components/Navbar.jsx"
 
-function App() {
+const Home = () => {
   return (
-    <div>
+    <div className="font-family-primary">
       <div id="homePage" className="flex justify-center items-center flex-col text-primary-blue">
         <header className="w-full flex flex-col gap-9 py-14 items-center">
           <h1 className="text-5xl py-3">Isabelle Augu</h1>
-          <nav className="w-7/10">
-            <ul className="flex justify-between">
-              <li>accueil</li>
-              <li>à propos</li>
-              <li>oeuvres</li>
-              <li>actualités</li>
-              <li>contact</li>
-            </ul>
-          </nav>
+          <Navbar/>
         </header>
         <main className="w-8/10">
           <img src={claire} alt="Isabelle Augu" />
@@ -24,4 +18,4 @@ function App() {
   )
 }
 
-export default App
+export default Home
