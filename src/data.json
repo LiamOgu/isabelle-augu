@@ -1,0 +1,28 @@
+{
+  "photos": [
+    {
+      "id": 1,
+      "title": "Photos 1",
+      "src": "src/assets/images/photo1.jpg",
+      "description": "A beautiful sunset over the mountains."
+    },
+    {
+      "id": 3,
+      "title": "Photos 3",
+      "src": "src/assets/images/photo3.jpg",
+      "description": "A bustling cityscape at night."
+    },
+    {
+      "id": 4,
+      "title": "Photos 4",
+      "src": "src/assets/images/photo4.jpg",
+      "description": "A peaceful forest with tall trees."
+    },
+    {
+      "id": 5,
+      "title": "Photos 5",
+      "src": "src/assets/images/photo5.jpg",
+      "description": "A majestic waterfall in a tropical setting."
+    }
+  ]
+}
