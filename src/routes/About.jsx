@@ -1,13 +1,11 @@
 import Navbar from "../components/Navbar"
 import Photos from "../components/Photos"
+import Header from "../components/Header.jsx"
 
 const About = () => {
   return (
     <div id="homePage" className="flex justify-center items-center flex-col">
-        <header className="w-full flex flex-col gap-10 py-14 items-center">
-          <h1 className="text-5xl py-3">À propos de moi</h1>
-          <Navbar/>
-        </header>
+        <Header title="À propos de moi" />
         <hr className="w-full border-x border-gray-300" />
         <main className="flex justify-center w-8/10">
           <div className="flex flex-col items-center justify-center w-8/10 md:gap-24 py-10 md:w-6/10 lg:mx-24 ">
@@ -93,7 +91,7 @@ const About = () => {
             </div>
           </div>
           <div className="hidden md:flex flex-col w-5/10 items-center justify-around ">
-            <Photos id={[1, 3, 4, 5]} className=" flex flex-col items-center my-0" />
+            <Photos id={[1, 3, 4, 5]} className=" flex flex-col items-center" />
           </div>
         </main>
       </div>

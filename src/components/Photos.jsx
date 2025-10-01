@@ -16,13 +16,13 @@ const Photos = ({ id, className = "" }) => {
   }
 
   return (
-    <div className={`flex items-center justify-center py-10 ${className}`}>
+    <div className={`flex items-center justify-center ${className}`}>
       {filteredPhotos.map(photo => (
         <img
           key={photo.id}
           src={photo.src}
           alt={photo.alt}
-          className="w-50 md:w-60 lg:w-65 md:mb-10"
+          className="w-50 md:w-60 lg:w-65"
         />
       ))}
     </div>
