@@ -9,10 +9,10 @@ const About = () => {
           <Navbar/>
         </header>
         <hr className="w-full border-x border-gray-300" />
-        <main className="w-full flex justify-center lg:w-8/10">
-          <div className="flex flex-col items-center justify-center md:gap-24 py-10 md:w-6/10 lg:mx-24 ">
+        <main className="flex justify-center w-8/10">
+          <div className="flex flex-col items-center justify-center w-8/10 md:gap-24 py-10 md:w-6/10 lg:mx-24 ">
             <div className="lg:flex">
-              <p className="mb-24">
+              <p className="md:mb-24">
                 Je m’appelle Isabelle Augu,
                 je suis née en 1972 à Auch dans
                 le Gers (France).
@@ -93,7 +93,7 @@ const About = () => {
             </div>
           </div>
           <div className="hidden md:flex flex-col w-5/10 items-center justify-around ">
-            <Photos id={[1, 3, 4, 5]} className=" flex flex-col items-stretch my-0" />
+            <Photos id={[1, 3, 4, 5]} className=" flex flex-col items-center my-0" />
           </div>
         </main>
       </div>
