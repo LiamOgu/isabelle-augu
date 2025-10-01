@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar"
-import data from "../data.json"
+import Photos from "../components/Photos"
 
 const About = () => {
   return (
@@ -9,14 +9,15 @@ const About = () => {
           <Navbar/>
         </header>
         <hr className="w-full border-x border-gray-300" />
-        <main className="w-8/10 flex justify-center items-stretch gap-12">
-          <div className="flex flex-col items-center justify-center gap-24 py-10 text-md w-5/10">
+        <main className="w-full flex justify-center lg:w-8/10">
+          <div className="flex flex-col items-center justify-center md:gap-24 py-10 md:w-6/10 lg:mx-24 ">
             <div className="lg:flex">
-              <p className="">
+              <p className="mb-24">
                 Je m’appelle Isabelle Augu,
                 je suis née en 1972 à Auch dans
                 le Gers (France).
               </p>
+              <Photos id={1} className="md:hidden" />
             </div>
             <div className="lg:flex">
               <p className="">
@@ -41,6 +42,7 @@ const About = () => {
                 Puis je cesse mon activité de décoratrice,
                 prends du temps pour moi.
               </p>
+              <Photos id={3} className="md:hidden" />
             </div>
             <div className="lg:flex">
               <p className="">
@@ -59,6 +61,7 @@ const About = () => {
               limite c’est moi même. j’adore les nouvelles expériences,
               ça me challenge et me fais me sentir pleine de vie.
               </p>
+              <Photos id={4} className="md:hidden" />
             </div>
             <div className="lg:flex">
               <p className="">
@@ -81,6 +84,7 @@ const About = () => {
               dans un sens comme dans l’autre !
               L’expérience ne fait que commencer.
               </p>
+              <Photos id={5} className="md:hidden" />
             </div>
             <div className="lg:flex">
               <p className="">
@@ -88,14 +92,8 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-6 w-5/10">
-            {
-              data && data.photos.map(photo => {
-                return(
-                  <img src={photo.src} className="w-full h-full object-cover flex-1"/>
-                )
-              })
-            }
+          <div className="hidden md:flex flex-col w-5/10 items-center justify-around ">
+            <Photos id={[1, 3, 4, 5]} className=" flex flex-col items-stretch my-0" />
           </div>
         </main>
       </div>
