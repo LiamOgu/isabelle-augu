@@ -1,28 +1,111 @@
 {
-  "photos": [
+  "images-about": [
     {
       "id": 1,
       "title": "Photos 1",
       "src": "src/assets/images/photo1.jpg",
-      "description": "A beautiful sunset over the mountains."
+      "alt": "A beautiful sunset over the mountains."
+    },
+    {
+      "id": 2,
+      "title": "Photos 2",
+      "src": "src/assets/images/photo2.jpg",
+      "alt": "A bustling cityscape at night."
     },
     {
       "id": 3,
       "title": "Photos 3",
       "src": "src/assets/images/photo3.jpg",
-      "description": "A bustling cityscape at night."
+      "alt": "A peaceful forest with tall trees."
     },
     {
       "id": 4,
       "title": "Photos 4",
       "src": "src/assets/images/photo4.jpg",
-      "description": "A peaceful forest with tall trees."
+      "alt": "A majestic waterfall in a tropical setting."
+    }
+  ],
+  "images-gallery": [
+    {
+      "id": 1,
+      "title": "Photos 1",
+      "src": "src/assets/images/photo1.jpg",
+      "alt": "A beautiful sunset over the mountains.",
+      "sub-photos": [
+        {
+          "id": 1.1,
+          "title": "Sub Photo 1",
+          "src": "src/assets/images/photo2.jpg",
+          "alt": "A close-up of a flower."
+        },
+        {
+          "id": 1.2,
+          "title": "Sub Photo 2",
+          "src": "src/assets/images/photo3.jpg",
+          "alt": "A butterfly on a leaf."
+        }
+      ]
+
     },
     {
-      "id": 5,
-      "title": "Photos 5",
-      "src": "src/assets/images/photo5.jpg",
-      "description": "A majestic waterfall in a tropical setting."
+      "id": 2,
+      "title": "Photos 2",
+      "src": "src/assets/images/photo2.jpg",
+      "alt": "A bustling cityscape at night.",
+      "sub-photos": [
+        {
+          "id": 1.1,
+          "title": "Sub Photo 1",
+          "src": "src/assets/images/photo2.jpg",
+          "alt": "A close-up of a flower."
+        },
+        {
+          "id": 1.2,
+          "title": "Sub Photo 2",
+          "src": "src/assets/images/photo3.jpg",
+          "alt": "A butterfly on a leaf."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Photos 3",
+      "src": "src/assets/images/photo3.jpg",
+      "alt": "A peaceful forest with tall trees.",
+      "sub-photos": [
+        {
+          "id": 1.1,
+          "title": "Sub Photo 1",
+          "src": "src/assets/images/photo2.jpg",
+          "alt": "A close-up of a flower."
+        },
+        {
+          "id": 1.2,
+          "title": "Sub Photo 2",
+          "src": "src/assets/images/photo3.jpg",
+          "alt": "A butterfly on a leaf."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Photos 4",
+      "src": "src/assets/images/photo4.jpg",
+      "alt": "A majestic waterfall in a tropical setting.",
+      "sub-photos": [
+        {
+          "id": 1.1,
+          "title": "Sub Photo 1",
+          "src": "src/assets/images/photo2.jpg",
+          "alt": "A close-up of a flower."
+        },
+        {
+          "id": 1.2,
+          "title": "Sub Photo 2",
+          "src": "src/assets/images/photo3.jpg",
+          "alt": "A butterfly on a leaf."
+        }
+      ]
     }
   ]
 }

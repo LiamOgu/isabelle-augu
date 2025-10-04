@@ -8,7 +8,7 @@ const Home = () => {
     <div className="">
       <div id="homePage" className="flex justify-center items-center flex-col">
         <Header title="Isabelle Augu" />
-        <main className="w-8/10">
+        <main className="md:w-8/10">
           <img src={claire} alt="Isabelle Augu" />
         </main>
       </div>

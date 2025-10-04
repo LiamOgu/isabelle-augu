@@ -3,25 +3,13 @@ import Header from '../components/Header.jsx'
 
 const Gallery = () => {
   return (
-    <div> 
+    <div className="flex flex-col items-center"> 
       <Header title="Galerie" />
-      <div className="grid xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 items-center justify-center p-10">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+      <div className="w-2/3 grid grid-cols-4 p-10">
+        <Card id={1} />
+        <Card id={2} />
+        <Card id={3} />
+        <Card id={4} />
       </div>
     </div>
   )

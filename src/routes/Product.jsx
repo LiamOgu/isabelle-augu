@@ -1,4 +1,7 @@
-const Product = () => {
+
+
+const Product = ({id}) => {
+  <Images id={id} photoType="gallery" className="" />
   return (
     <div>Product</div>
   )
