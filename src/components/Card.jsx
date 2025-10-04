@@ -1,17 +1,19 @@
-import Photos from "./Images"
+import Images from "./Images"
 import { NavLink } from "react-router-dom"
+import data from "../data.json"
 
 const Card = ({ id }) => {
+  const product = data["imagesGallery"].find(product => product.id === id)
   return (
     <div className="flex flex-col gap-3 p-3 max-w-fit max-h-fit">
-      <NavLink to={`/Product?id=${id}`} className="">
+      <NavLink to={`/Product?id=${product.id}`} className="">
         <div className=" flex items-center justify-center">
           <figure className="bg-blue-300">
-            <Photos id={id} photoType="gallery" className="opacity-100 z-10 transition-opacity duration-300 hover:opacity-70" />
+            <Images id={product.id} imageType="gallery" className="opacity-100 z-10 transition-opacity duration-200 hover:opacity-70" />
           </figure>
         </div>
         <div>
-            Titre - Exemple
+            {product.title}
         </div>
       </NavLink>
     </div>

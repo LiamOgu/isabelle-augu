@@ -2,8 +2,7 @@ import Navbar from "../components/Navbar"
 import Images from "../components/Images.jsx"
 import Header from "../components/Header.jsx"
 
-const aboutSections = 
-[
+const aboutSections = [
   {
     text: "Je m’appelle Isabelle Augu, je suis née en 1972 à Auch dans le Gers (France).",
     imageId: 1
@@ -15,7 +14,7 @@ const aboutSections =
                 gérante associée d’une société dans le
                 domaine du bâtiment, j’amorce un premier
                 virage dans ma carrière, je me forme et m’installe
-                en tant que décoratrice d’intérieur, je crée des
+                en tant que décoratrice d’intérieur, je crée des
                 ambiances, des décors, pour des particuliers et
                 des professionnels (restaurants). Pendant ces années,
                 je vais également créer des luminaires pour mes
@@ -82,14 +81,17 @@ const About = () => {
           {aboutSections.map((section, index) => (
             <div key={index} className="lg:flex lg:items-center lg:gap-8">
               <p className="leading-relaxed mb-12">{section.text}</p>
-              {section.imageId && <Images id={section.imageId} className="md:hidden" />}
+              {section.imageId && <Images id={section.imageId} imageType="about" className="md:hidden" />}
             </div>
           ))}
         </div>
 
         {/* Colonne d’images sur desktop */}
         <div className="hidden md:flex flex-col justify-between items-stretch w-4/10">
-          <Images id={[1, 2, 3, 4]} imageType="about" className="flex flex-col items-center justify-around h-full gap-8" />
+          <Images id={1} imageType="about" />
+          <Images id={2} imageType="about" />
+          <Images id={3} imageType="about" />
+          <Images id={4} imageType="about" />
         </div>
       </main>
     </div>

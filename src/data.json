@@ -1,5 +1,5 @@
 {
-  "images-about": [
+  "imagesAbout": [
     {
       "id": 1,
       "title": "Photos 1",
@@ -25,13 +25,17 @@
       "alt": "A majestic waterfall in a tropical setting."
     }
   ],
-  "images-gallery": [
+  "imagesGallery": [
     {
       "id": 1,
-      "title": "Photos 1",
+      "title": "Titre",
       "src": "src/assets/images/photo1.jpg",
       "alt": "A beautiful sunset over the mountains.",
-      "sub-photos": [
+      "date": "2023-01-01",
+      "dimensions": "1920x1080",
+      "technique": "Photographie",
+      "description": "Une magnifique photo d'un coucher de soleil.",
+      "subImages": [
         {
           "id": 1.1,
           "title": "Sub Photo 1",
@@ -49,10 +53,14 @@
     },
     {
       "id": 2,
-      "title": "Photos 2",
+      "title": "Titre",
       "src": "src/assets/images/photo2.jpg",
       "alt": "A bustling cityscape at night.",
-      "sub-photos": [
+      "date": "2023-01-02",
+      "dimensions": "1920x1080",
+      "technique": "Photographie",
+      "description": "Une magnifique photo d'une ville la nuit.",
+      "subImages": [
         {
           "id": 1.1,
           "title": "Sub Photo 1",
@@ -69,10 +77,14 @@
     },
     {
       "id": 3,
-      "title": "Photos 3",
+      "title": "Titre",
       "src": "src/assets/images/photo3.jpg",
       "alt": "A peaceful forest with tall trees.",
-      "sub-photos": [
+      "date": "2023-01-03",
+      "dimensions": "1920x1080",
+      "technique": "Photographie",
+      "description": "Une magnifique photo d'une forêt paisible.",
+      "subImages": [
         {
           "id": 1.1,
           "title": "Sub Photo 1",
@@ -89,10 +101,14 @@
     },
     {
       "id": 4,
-      "title": "Photos 4",
+      "title": "Titre",
       "src": "src/assets/images/photo4.jpg",
       "alt": "A majestic waterfall in a tropical setting.",
-      "sub-photos": [
+      "date": "2023-01-04",
+      "dimensions": "1920x1080",
+      "technique": "Photographie",
+      "description": "Une magnifique photo d'une cascade majestueuse.",
+      "subImages": [
         {
           "id": 1.1,
           "title": "Sub Photo 1",
