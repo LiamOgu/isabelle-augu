@@ -1,5 +1,6 @@
 import Card from "../components/Card.jsx"
 import Header from "../components/Header.jsx"
+import Footer from "../components/Footer.jsx"
 
 const Gallery = () => {
   // tu peux automatiser la génération plus tard
@@ -19,11 +20,12 @@ const Gallery = () => {
             place-items-center
           "
         >
-          {ids.map(id => (
+          {ids.slice().reverse().map(id => (
             <Card key={id} id={id} />
           ))}
         </div>
       </main>
+      <Footer />
     </div>
   )
 }

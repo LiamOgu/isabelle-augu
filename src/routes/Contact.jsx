@@ -1,6 +1,10 @@
+import Footer from "../components/Footer.jsx"
+
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>Contact
+      <Footer />
+    </div>
   )
 }
 

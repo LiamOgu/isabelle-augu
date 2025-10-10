@@ -3,6 +3,7 @@ import { useState } from "react"
 import data from "../data.json"
 import Images from "../components/Images"
 import Header from "../components/Header.jsx"
+import Footer from "../components/Footer.jsx"
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
@@ -43,7 +44,7 @@ const Product = () => {
             ))}
           </div>
         </div>
-  <div className="flex flex-col gap-4 p-6 md:w-2/5">
+        <div className="flex flex-col gap-4 p-6 md:w-2/5">
           {/* Informations produit */}
           <h2 className="hidden md:block md:text-3xl mb-4">{product.title}</h2>
           <p className="mb-4">Date : {product.date}</p>
@@ -53,6 +54,7 @@ const Product = () => {
         </div>
       </div>
       <Lightbox open={open} close={() => setOpen(false)} index={index} slides={slides} />
+    <Footer />
     </div>
   )
 }

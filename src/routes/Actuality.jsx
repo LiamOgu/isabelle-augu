@@ -1,6 +1,10 @@
+import Footer from "../components/Footer.jsx"
+
 const Actuality = () => {
   return (
-    <div>Actuality</div>
+    <div>Actuality
+      <Footer />
+    </div>
   )
 }
 

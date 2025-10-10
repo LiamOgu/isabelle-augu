@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Images from "../components/Images.jsx"
 import Header from "../components/Header.jsx"
+import Footer from "../components/Footer.jsx"
 
 const aboutSections = [
   {
@@ -88,12 +89,13 @@ const About = () => {
 
         {/* Colonne d’images sur desktop */}
         <div className="hidden md:flex flex-col justify-between items-stretch w-4/10">
-          <Images id={1} imageType="about" />
-          <Images id={2} imageType="about" />
-          <Images id={3} imageType="about" />
-          <Images id={4} imageType="about" />
+          <Images id={1} imageType="about" className="w-50 md:w-60 lg:w-65" />
+          <Images id={2} imageType="about" className="w-50 md:w-60 lg:w-65"/>
+          <Images id={3} imageType="about" className="w-50 md:w-60 lg:w-65"/>
+          <Images id={4} imageType="about" className="w-50 md:w-60 lg:w-65"/>
         </div>
       </main>
+      <Footer />
     </div>
   )
 }
