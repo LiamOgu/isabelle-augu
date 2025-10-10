@@ -1,6 +1,6 @@
 import data from "../data.json"
 
-const Images = ({ id, imageType, className = "" }) => {
+const Images = ({ id, imageType, className = "", onClick }) => {
   // mapping imageType → tableau correspondant
   const imageMap = {
     gallery: data?.["imagesGallery"] || [],
@@ -17,7 +17,8 @@ const Images = ({ id, imageType, className = "" }) => {
       <img
         src={image.src}
         alt={image.alt}
-        className="w-full h-auto object-contain"
+        className={`w-full h-auto object-contain ${onClick ? 'cursor-pointer' : ''}`}
+        onClick={onClick}
       />
     </div>
   )
