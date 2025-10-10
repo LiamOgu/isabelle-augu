@@ -17,7 +17,7 @@ const Images = ({ id, imageType, className = "" }) => {
       <img
         src={image.src}
         alt={image.alt}
-        className="w-50 md:w-65 xl:w-70"
+        className="w-full h-auto object-contain"
       />
     </div>
   )

@@ -1,16 +1,29 @@
-import Card from '../components/Card.jsx'
-import Header from '../components/Header.jsx'
+import Card from "../components/Card.jsx"
+import Header from "../components/Header.jsx"
 
 const Gallery = () => {
+  // tu peux automatiser la génération plus tard
+  const ids = Array.from({ length: 13 }, (_, i) => i + 1)
+
   return (
-    <div className="flex flex-col items-center"> 
+    <div className="flex flex-col items-center w-full">
       <Header title="Galerie" />
-      <div className="w-2/3 grid grid-cols-4 p-10">
-        <Card id={1} />
-        <Card id={2} />
-        <Card id={3} />
-        <Card id={4} />
-      </div>
+
+      <main className="w-full md:max-w-7xl md:px-6 py-12">
+        <div
+          className="
+            grid 
+            gap-6 
+            md:grid-cols-3 
+            lg:grid-cols-4 
+            place-items-center
+          "
+        >
+          {ids.map(id => (
+            <Card key={id} id={id} />
+          ))}
+        </div>
+      </main>
     </div>
   )
 }
