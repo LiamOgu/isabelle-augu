@@ -29,7 +29,7 @@
     {
       "id": 1,
       "title": "Bouquet de fleurs",
-      "src": "src/assets/images/bdf.webp",
+  "src": "src/assets/images/bdf.jpeg",
       "alt": "Peinture Bouquet de fleurs, acrylique sur toile coton, 50x150 cm.",
       "date": "2024",
       "dimensions": "50x150 cm",
@@ -37,11 +37,11 @@
       "description": "Une œuvre florale vibrante, mêlant couleurs et formes expressives.",
       "subImages": [
         {
-          "src": "src/assets/images/bdf2.webp",
+          "src": "src/assets/images/bdf2.jpeg",
           "alt": "Détail de la peinture Bouquet de fleurs, acrylique sur toile coton, 50x150 cm."
         },
         {
-          "src": "src/assets/images/bdf3.webp",
+          "src": "src/assets/images/bdf3.jpeg",
           "alt": "Détail de la peinture Bouquet de fleurs, acrylique sur toile coton, 50x150 cm."
         }
       ]
@@ -49,7 +49,7 @@
     {
       "id": 2,
       "title": "Un moment",
-      "src": "src/assets/images/um.webp",
+  "src": "src/assets/images/um.jpeg",
       "alt": "Peinture Un moment, acrylique sur toile coton, 30x30 cm.",
       "date": "2024",
       "dimensions": "30x30 cm",
@@ -57,11 +57,11 @@
       "description": "Une composition intime évoquant la simplicité et la quiétude.",
       "subImages": [
         {
-          "src": "src/assets/images/um2.webp",
+          "src": "src/assets/images/um2.jpeg",
           "alt": "Détail de la peinture Un moment, acrylique sur toile coton, 30x30 cm."
         },
         {
-          "src": "src/assets/images/um3.webp",
+          "src": "src/assets/images/um3.jpeg",
           "alt": "Détail de la peinture Un moment, acrylique sur toile coton, 30x30 cm."
         }
       ]
@@ -69,7 +69,7 @@
     {
       "id": 3,
       "title": "Chant des oiseaux",
-      "src": "src/assets/images/cdo.webp",
+  "src": "src/assets/images/cdo.jpeg",
       "alt": "Peinture Chant des oiseaux, acrylique sur toile coton, 40x50 cm.",
       "date": "2024",
       "dimensions": "40x50 cm",
@@ -77,19 +77,19 @@
       "description": "Une œuvre légère et harmonieuse inspirée des sons et du mouvement des oiseaux.",
       "subImages": [
         {
-          "src": "src/assets/images/cdo2.webp",
+          "src": "src/assets/images/cdo2.jpeg",
           "alt": "Détail de la peinture Chant des oiseaux, acrylique sur toile coton, 40x50 cm."
         },
         {
-          "src": "src/assets/images/cdo3.webp",
+          "src": "src/assets/images/cdo3.jpeg",
           "alt": "Détail de la peinture Chant des oiseaux, acrylique sur toile coton, 40x50 cm."
         },
         {
-          "src": "src/assets/images/cdo4.webp",
+          "src": "src/assets/images/cdo4.jpeg",
           "alt": "Détail de la peinture Chant des oiseaux, acrylique sur toile coton, 40x50 cm."
         },
         {
-          "src": "src/assets/images/cdo5.webp",
+          "src": "src/assets/images/cdo5.jpeg",
           "alt": "Détail de la peinture Chant des oiseaux, acrylique sur toile coton, 40x50 cm."
         }
       ]
@@ -97,7 +97,7 @@
     {
       "id": 4,
       "title": "Fête des fleurs",
-      "src": "src/assets/images/fdf.webp",
+  "src": "src/assets/images/fdf.jpeg",
       "alt": "Peinture Fête des fleurs, acrylique sur toile coton, 50x70 cm.",
       "date": "2024",
       "dimensions": "50x70 cm",
@@ -105,11 +105,11 @@
       "description": "Explosion de couleurs et d’énergie florale célébrant la nature.",
       "subImages": [
         {
-          "src": "src/assets/images/fdf2.webp",
+          "src": "src/assets/images/fdf2.jpeg",
           "alt": "Détail de la peinture Fête des fleurs, acrylique sur toile coton, 50x70 cm."
         },
         {
-          "src": "src/assets/images/fdf3.webp",
+          "src": "src/assets/images/fdf3.jpeg",
           "alt": "Détail de la peinture Fête des fleurs, acrylique sur toile coton, 50x70 cm."
         }
       ]
@@ -117,7 +117,7 @@
     {
       "id": 5,
       "title": "Psychédélique",
-      "src": "src/assets/images/p.webp",
+  "src": "src/assets/images/p.jpeg",
       "alt": "Peinture Psychédélique, acrylique sur toile coton, 30x30 cm.",
       "date": "2024",
       "dimensions": "30x30 cm",
@@ -125,11 +125,11 @@
       "description": "Un jeu visuel audacieux aux formes et teintes hypnotiques.",
       "subImages": [
         {
-          "src": "src/assets/images/p2.webp",
+          "src": "src/assets/images/p2.jpeg",
           "alt": "Détail de la peinture Psychédélique, acrylique sur toile coton, 30x30 cm."
         },
         {
-          "src": "src/assets/images/p3.webp",
+          "src": "src/assets/images/p3.jpeg",
           "alt": "Détail de la peinture Psychédélique, acrylique sur toile coton, 30x30 cm."
         }
       ]
@@ -137,7 +137,7 @@
     {
       "id": 6,
       "title": "Enchantement",
-      "src": "src/assets/images/e.webp",
+  "src": "src/assets/images/e.jpeg",
       "alt": "Peinture Enchantement, acrylique sur toile coton, 80x80 cm.",
       "date": "2024",
       "dimensions": "80x80 cm",
@@ -145,11 +145,11 @@
       "description": "Une œuvre immersive aux tonalités rêveuses et poétiques.",
       "subImages": [
         {
-          "src": "src/assets/images/e2.webp",
+          "src": "src/assets/images/e2.jpeg",
           "alt": "Détail de la peinture Enchantement, acrylique sur toile coton, 80x80 cm."
         },
         {
-          "src": "src/assets/images/e3.webp",
+          "src": "src/assets/images/e3.jpeg",
           "alt": "Détail de la peinture Enchantement, acrylique sur toile coton, 80x80 cm."
         }
       ]
@@ -157,7 +157,7 @@
     {
       "id": 7,
       "title": "Lïam",
-      "src": "src/assets/images/l.webp",
+  "src": "src/assets/images/l.jpeg",
       "alt": "Peinture Lïam, acrylique sur toile coton, 40x50 cm.",
       "date": "2024",
       "dimensions": "40x50 cm",
@@ -165,15 +165,15 @@
       "description": "Une œuvre personnelle exprimant la singularité et la profondeur de l’artiste.",
       "subImages": [
         {
-          "src": "src/assets/images/l2.webp",
+          "src": "src/assets/images/l2.jpeg",
           "alt": "Détail de la peinture Lïam, acrylique sur toile coton, 40x50 cm."
         },
         {
-          "src": "src/assets/images/l3.webp",
+          "src": "src/assets/images/l3.jpeg",
           "alt": "Détail de la peinture Lïam, acrylique sur toile coton, 40x50 cm."
         },
         {
-          "src": "src/assets/images/l4.webp",
+          "src": "src/assets/images/l4.jpeg",
           "alt": "Détail de la peinture Lïam, acrylique sur toile coton, 40x50 cm."
         }
       ]
@@ -181,7 +181,7 @@
     {
       "id": 8,
       "title": "Fleurs en folie",
-      "src": "src/assets/images/fef.webp",
+  "src": "src/assets/images/fef.jpeg",
       "alt": "Peinture Fleurs en folie, acrylique sur toile coton, 60x80 cm.",
       "date": "2024",
       "dimensions": "60x80 cm",
@@ -189,11 +189,11 @@
       "description": "Une composition dynamique et joyeuse autour du thème floral.",
       "subImages": [
         {
-          "src": "src/assets/images/fef2.webp",
+          "src": "src/assets/images/fef2.jpeg",
           "alt": "Détail de la peinture Fleurs en folie, acrylique sur toile coton, 60x80 cm."
         },
         {
-          "src": "src/assets/images/fef3.webp",
+          "src": "src/assets/images/fef3.jpeg",
           "alt": "Détail de la peinture Fleurs en folie, acrylique sur toile coton, 60x80 cm."
         }
       ]
@@ -201,7 +201,7 @@
     {
       "id": 9,
       "title": "Trait pour trait",
-      "src": "src/assets/images/tpt.webp",
+  "src": "src/assets/images/tpt.jpeg",
       "alt": "Peinture Trait pour trait, acrylique sur toile coton, 80x80 cm.",
       "date": "2024",
       "dimensions": "80x80 cm",
@@ -209,15 +209,15 @@
       "description": "Une étude graphique du trait et de la forme dans la couleur.",
       "subImages": [
         {
-          "src": "src/assets/images/tpt2.webp",
+          "src": "src/assets/images/tpt2.jpeg",
           "alt": "Détail de la peinture Trait pour trait, acrylique sur toile coton, 80x80 cm."
         },
         {
-          "src": "src/assets/images/tpt3.webp",
+          "src": "src/assets/images/tpt3.jpeg",
           "alt": "Détail de la peinture Trait pour trait, acrylique sur toile coton, 80x80 cm."
         },
         {
-          "src": "src/assets/images/tpt4.webp",
+          "src": "src/assets/images/tpt4.jpeg",
           "alt": "Détail de la peinture Trait pour trait, acrylique sur toile coton, 80x80 cm."
         }
       ]
@@ -225,7 +225,7 @@
     {
       "id": 10,
       "title": "Je m’éparpille",
-      "src": "src/assets/images/jm.webp",
+  "src": "src/assets/images/jm.jpeg",
       "alt": "Peinture Je m’éparpille, acrylique sur toile coton, 100x100 cm.",
       "date": "2025",
       "dimensions": "100x100 cm",
@@ -233,11 +233,11 @@
       "description": "Une œuvre abstraite illustrant la dispersion et la multiplicité intérieure.",
       "subImages": [
         {
-          "src": "src/assets/images/jm2.webp",
+          "src": "src/assets/images/jm2.jpeg",
           "alt": "Détail de la peinture Je m’éparpille, acrylique sur toile coton, 100x100 cm."
         },
         {
-          "src": "src/assets/images/jm3.webp",
+          "src": "src/assets/images/jm3.jpeg",
           "alt": "Détail de la peinture Je m’éparpille, acrylique sur toile coton, 100x100 cm."
         }
       ]
@@ -245,7 +245,7 @@
     {
       "id": 11,
       "title": "À consommer",
-      "src": "src/assets/images/ac.webp",
+  "src": "src/assets/images/ac.jpeg",
       "alt": "Peinture À consommer, acrylique sur toile coton, 100x100 cm.",
       "date": "2025",
       "dimensions": "100x100 cm",
@@ -253,11 +253,11 @@
       "description": "Réflexion picturale sur la société de consommation et l’éphémère.",
       "subImages": [
         {
-          "src": "src/assets/images/ac2.webp",
+          "src": "src/assets/images/ac2.jpeg",
           "alt": "Détail de la peinture À consommer, acrylique sur toile coton, 100x100 cm."
         },
         {
-          "src": "src/assets/images/ac3.webp",
+          "src": "src/assets/images/ac3.jpeg",
           "alt": "Détail de la peinture À consommer, acrylique sur toile coton, 100x100 cm."
         }
       ]
@@ -265,7 +265,7 @@
     {
       "id": 12,
       "title": "Amitié",
-      "src": "src/assets/images/a.webp",
+  "src": "src/assets/images/a.jpeg",
       "alt": "Peinture Amitié, acrylique sur toile coton, 80x80 cm.",
       "date": "2025",
       "dimensions": "80x80 cm",
@@ -273,19 +273,19 @@
       "description": "Une œuvre lumineuse symbolisant le lien, le partage et la chaleur humaine.",
       "subImages": [
         {
-          "src": "src/assets/images/a2.webp",
+          "src": "src/assets/images/a2.jpeg",
           "alt": "Détail de la peinture Amitié, acrylique sur toile coton, 80x80 cm."
         },
         {
-          "src": "src/assets/images/a3.webp",
+          "src": "src/assets/images/a3.jpeg",
           "alt": "Détail de la peinture Amitié, acrylique sur toile coton, 80x80 cm."
         },
         {
-          "src": "src/assets/images/a4.webp",
+          "src": "src/assets/images/a4.jpeg",
           "alt": "Détail de la peinture Amitié, acrylique sur toile coton, 80x80 cm."
         },
         {
-          "src": "src/assets/images/a5.webp",
+          "src": "src/assets/images/a5.jpeg",
           "alt": "Détail de la peinture Amitié, acrylique sur toile coton, 80x80 cm."
         }
       ]
@@ -293,7 +293,7 @@
     {
       "id": 13,
       "title": "Là où je me pose",
-      "src": "src/assets/images/lojmp.webp",
+  "src": "src/assets/images/lojmp.jpeg",
       "alt": "Peinture Là où je me pose, acrylique sur toile coton, 80x60 cm.",
       "date": "2025",
       "dimensions": "80x60 cm",
@@ -301,11 +301,11 @@
       "description": "Un espace de calme et d’ancrage intérieur, entre repos et contemplation.",
       "subImages": [
         {
-          "src": "src/assets/images/lojmp2.webp",
+          "src": "src/assets/images/lojmp2.jpeg",
           "alt": "Détail de la peinture Là où je me pose, acrylique sur toile coton, 80x60 cm."
         },
         {
-          "src": "src/assets/images/lojmp3.webp",
+          "src": "src/assets/images/lojmp3.jpeg",
           "alt": "Détail de la peinture Là où je me pose, acrylique sur toile coton, 80x60 cm."
         }
       ]
@@ -313,7 +313,7 @@
     {
       "id": 14,
       "title": "Totem 1",
-      "src": "src/assets/images/bdf1.webp",
+  "src": "src/assets/images/bdf1.jpeg",
       "alt": "Sculpture Totem 1, acrylique sur bois MDF, 6.4x3.5x50 cm.",
       "date": "2025",
       "dimensions": "6.4x3.5x50 cm",
@@ -324,7 +324,7 @@
     {
       "id": 15,
       "title": "Totem 2",
-      "src": "src/assets/images/bdf1.webp",
+      "src": "src/assets/images/bdf1.jpeg",
       "alt": "Sculpture Totem 2, acrylique sur bois MDF, 6.4x3.5x50 cm.",
       "date": "2025",
       "dimensions": "6.4x3.5x50 cm",
@@ -335,7 +335,7 @@
     {
       "id": 16,
       "title": "Admirable (recto/verso)",
-      "src": "src/assets/images/bdf1.webp",
+      "src": "src/assets/images/bdf1.jpeg",
       "alt": "Œuvre Admirable, acrylique sur bois MDF, 34.5x33.5 cm, recto/verso.",
       "date": "2025",
       "dimensions": "34.5x33.5 cm",
@@ -346,7 +346,7 @@
     {
       "id": 17,
       "title": "Nonchalant",
-      "src": "src/assets/images/bdf1.webp",
+      "src": "src/assets/images/bdf1.jpeg",
       "alt": "Peinture Nonchalant, acrylique sur toile coton, tissus et fils coton, 80x80 cm.",
       "date": "2025",
       "dimensions": "80x80 cm",
@@ -357,7 +357,7 @@
     {
       "id": 18,
       "title": "L’envolée (tryptique)",
-      "src": "src/assets/images/bdf1.webp",
+      "src": "src/assets/images/bdf1.jpeg",
       "alt": "Tryptique L’envolée : plaisir, confiance, détermination. Acrylique sur toile coton, 3 toiles 150x50 cm.",
       "date": "2025",
       "dimensions": "3 toiles 150x50 cm",
