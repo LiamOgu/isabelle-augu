@@ -32,11 +32,11 @@ const Product = () => {
           {/* Image principale */}
           <Images id={product.id} imageType="gallery" className="w-full overflow-hidden" onClick={() => { setIndex(0); setOpen(true) }} />
           {/* Sous-images */}
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap aspect-[4/3]">
             {product["subImages"].map((sub, idx) => (
               <div
                 key={idx}
-                className="m-2 aspect-[4/3] w-[100px] lg:w-[150px] flex-shrink-0 overflow-hidden cursor-pointer"
+                className="aspect-[4/3] m-2 w-[100px] lg:w-[150px] flex-shrink-0 overflow-hidden cursor-pointer"
                 onClick={() => { setIndex(idx + 1); setOpen(true) }}
               >
                 <img src={sub.src} alt={sub.alt} className="w-full h-full object-cover" />
