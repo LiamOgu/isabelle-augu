@@ -13,7 +13,7 @@ const HamburgerComponent = () => {
       </div>
 
       {isOpen && (
-        <div className="fixed top-0 right-0 bg-white w-screen h-screen flex flex-col items-center justify-center gap-8 z-10">
+        <div className="fixed top-0 right-0 w-screen h-screen backdrop-blur-3xl flex flex-col items-center justify-center gap-8 z-10">
           <NavLinks onClick={() => setIsOpen(false)} />
         </div>
       )}
