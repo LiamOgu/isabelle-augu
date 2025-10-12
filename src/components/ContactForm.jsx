@@ -1,6 +1,6 @@
 const ContactForm = () => {
   return (
-    <div className="flex justify-center items-center my-10">
+    <div className="flex justify-center items-center">
       <div className="m-10 p-10 rounded-lg shadow-lg w-full text-center text-xl font-light bg-white dark:bg-gray-800">
         <p>Si vous avez besoin d'un renseignement vous pouvez me contacter par mail à l'adresse suivante : </p>
         <br />
