@@ -36,7 +36,7 @@ const Product = () => {
             {product["subImages"].map((sub, idx) => (
               <div
                 key={idx}
-                className="cursor-pointer overflow-hidden w-[100px] h-[100px] md:w-[150px] md:h-[150px] flex-shrink-0"
+                className="cursor-pointer overflow-hidden w-[100px] h-[100px] md:w-[120px] md:h-[120px] lg:w-[150px] lg:h-[150px] flex-shrink-0"
                 onClick={() => { setIndex(idx + 1); setOpen(true) }}
               >
                 <img src={sub.src} alt={sub.alt} className="w-full h-full object-cover transition-transform duration-300 hover:scale-105" />
