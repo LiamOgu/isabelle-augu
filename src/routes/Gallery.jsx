@@ -1,6 +1,7 @@
 import Card from "../components/Card.jsx"
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
+import { Helmet } from "react-helmet";
 
 const Gallery = () => {
   // tu peux automatiser la génération plus tard
@@ -8,6 +9,10 @@ const Gallery = () => {
 
   return (
     <div className="flex flex-col items-center w-full">
+      <Helmet>
+        <title>Galerie - Isabelle Augu</title>
+        <meta name="description" content="Découvrez la galerie d'œuvres d'Isabelle Augu." />
+      </Helmet>
       <Header title="Galerie" />
 
       <main className="w-full md:max-w-7xl md:px-6 py-12">

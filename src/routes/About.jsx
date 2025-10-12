@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar"
 import Images from "../components/Images.jsx"
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
+import { Helmet } from "react-helmet";
 
 const aboutSections = [
   {
@@ -75,6 +76,10 @@ const aboutSections = [
 const About = () => {
   return (
     <div id="homePage" className="flex flex-col items-center">
+      <Helmet>
+        <title>À propos - Isabelle Augu</title>
+        <meta name="description" content="Découvrez le parcours et l'univers créatif d'Isabelle Augu." />
+      </Helmet>
       <Header title="À propos de moi" />
 
       <main className="flex flex-col md:flex-row justify-center w-8/10 py-10 gap-12">

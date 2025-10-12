@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar.jsx"
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
@@ -6,6 +7,10 @@ import Footer from "../components/Footer.jsx"
 const Home = () => {
   return (
     <div className="">
+      <Helmet>
+        <title>Accueil - Isabelle Augu</title>
+        <meta name="description" content="Bienvenue sur la page d'accueil de mon site, découvrez nos services et actualités." />
+      </Helmet>
       <div id="homePage" className="flex justify-center items-center flex-col mb-12">
         <Header title="Isabelle Augu" />
         <main className="md:w-8/10">
