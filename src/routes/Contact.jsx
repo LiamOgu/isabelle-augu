@@ -5,13 +5,15 @@ import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Helmet>
         <title>Contact - Isabelle Augu</title>
         <meta name="description" content="Contactez Isabelle Augu pour toute demande d'information ou de collaboration." />
       </Helmet>
-      <Header title="Contact" />
-      <ContactForm />
+      <Header title="contact" />
+      <div className="flex-grow">
+        <ContactForm />
+      </div>
       <Footer />
     </div>
   )

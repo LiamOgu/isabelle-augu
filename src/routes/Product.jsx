@@ -25,14 +25,14 @@ const Product = () => {
   ]
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col min-h-screen items-center">
       <Helmet>
         <title>{product.title} - Isabelle Augu</title>
         <meta name="description" content="Découvrez le parcours et l'univers créatif d'Isabelle Augu." />
       </Helmet>
       <Header title="Isabelle Augu" />
       <h2 className="text-3xl mb-4 md:hidden">{product.title}</h2>
-      <div className="w-11/12 md:w-2/3 flex flex-col md:flex-row">
+      <div className="w-11/12 md:w-2/3 flex flex-col md:flex-row flex-grow">
         <div className="flex flex-col gap-5 p-6 md:w-2/3">
           {/* Image principale */}
           <Images id={product.id} imageType="gallery" className="w-full overflow-hidden" onClick={() => { setIndex(0); setOpen(true) }} />
@@ -51,11 +51,11 @@ const Product = () => {
         </div>
         <div className="flex flex-col gap-4 p-6 md:w-2/5">
           {/* Informations produit */}
-          <h2 className="hidden md:block md:text-3xl mb-4">{product.title}</h2>
-          <p className="mb-4">Date : {product.date}</p>
-          <p className="mb-4">Dimensions : {product.dimensions}</p>
-          <p className="mb-4">Technique : {product.technique}</p>
-          <p className="mb-4">Description : {product.description}</p>
+          <h2 className="hidden md:block md:text-4xl mb-4 font-family-primary font-bold">{product.title}</h2>
+          <p className="mb-4 font-extralight">{product.description}</p>
+          <p className="mb-4">{product.date}</p>
+          <p className="mb-4">{product.dimensions}</p>
+          <p className="mb-4">{product.technique}</p>
         </div>
       </div>
       <Lightbox open={open} close={() => setOpen(false)} index={index} slides={slides} />
