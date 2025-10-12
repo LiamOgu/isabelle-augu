@@ -17,7 +17,8 @@ const aboutSections = [
                 virage dans ma carrière, je me forme et m’installe
                 en tant que décoratrice d’intérieur, je crée des
                 ambiances, des décors, pour des particuliers et
-                des professionnels (restaurants). Pendant ces années,
+                des professionnels (restaurants).
+                Pendant ces années,
                 je vais également créer des luminaires pour mes
                 clients, j’aurai la chance d’apparaitre dans le magazine
                 Elle Décoration de Juin 2014 pour une collection
@@ -63,7 +64,7 @@ const aboutSections = [
               j’apprends la précision, j’ai beaucoup à faire
               dans un sens comme dans l’autre !
               L’expérience ne fait que commencer.`,
-    imageId: 5
+    imageId: 2
   },
   {
     text: `À suivre...`,
@@ -80,9 +81,9 @@ const About = () => {
         {/* Texte + images mobiles */}
         <div className="flex flex-col gap-12 md:w-6/10 lg:w-5/10 lg:gap-20">
           {aboutSections.map((section, index) => (
-            <div key={index} className="lg:flex lg:items-center lg:gap-8">
-              <p className="leading-relaxed mb-12">{section.text}</p>
-              {section.imageId && <Images id={section.imageId} imageType="about" className="md:hidden" />}
+            <div key={index} className="flex flex-col lg:flex items-center lg:gap-8">
+              <p className={`leading-relaxed mb-12 ${index === 0 ? "text-xl font-medium md:text-2xl" : ""}`}>{section.text}</p>
+              {section.imageId && <Images id={section.imageId} imageType="about" className="md:hidden w-50 md:w-60 lg:w-65" />}
             </div>
           ))}
         </div>

@@ -25,21 +25,21 @@ const Product = () => {
 
   return (
     <div className="flex flex-col items-center">
-        <Header title="Isabelle Augu" />
+      <Header title="Isabelle Augu" />
       <h2 className="text-3xl mb-4 md:hidden">{product.title}</h2>
       <div className="w-11/12 md:w-2/3 flex flex-col md:flex-row">
         <div className="flex flex-col gap-5 p-6 md:w-2/3">
           {/* Image principale */}
           <Images id={product.id} imageType="gallery" className="w-full overflow-hidden" onClick={() => { setIndex(0); setOpen(true) }} />
           {/* Sous-images */}
-          <div className="flex flex-wrap aspect-[4/3]">
+          <div className="flex flex-wrap gap-3">
             {product["subImages"].map((sub, idx) => (
               <div
                 key={idx}
-                className="aspect-[4/3] m-2 w-[100px] lg:w-[150px] flex-shrink-0 overflow-hidden cursor-pointer"
+                className="cursor-pointer overflow-hidden w-[100px] h-[100px] md:w-[150px] md:h-[150px] flex-shrink-0"
                 onClick={() => { setIndex(idx + 1); setOpen(true) }}
               >
-                <img src={sub.src} alt={sub.alt} className="w-full h-full object-cover" />
+                <img src={sub.src} alt={sub.alt} className="w-full h-full object-cover transition-transform duration-300 hover:scale-105" />
               </div>
             ))}
           </div>
@@ -54,7 +54,7 @@ const Product = () => {
         </div>
       </div>
       <Lightbox open={open} close={() => setOpen(false)} index={index} slides={slides} />
-    <Footer />
+      <Footer />
     </div>
   )
 }
