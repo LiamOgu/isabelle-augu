@@ -4,7 +4,7 @@ import Hamburger from "./Hamburger.jsx"
 const Header = (props) => {
   return (
     <header className="w-full flex flex-col gap-6 py-6 items-center">
-      <h1 className="py-12 text-5xl md:py-8">{props.title}</h1>
+      <h1 className={`${props.textColor} font-family-primary py-12 text-6xl md:py-8 font-light`}>{props.title}</h1>
 
       {/* Navbar desktop */}
       <Navbar />
@@ -13,7 +13,7 @@ const Header = (props) => {
       <Hamburger />
 
       <hr className="block w-full border-x border-gray-300 my-4" />
-    </header>
+    </header >
   )
 }
 

@@ -5,19 +5,17 @@ import { NavLink } from "react-router-dom"
 
 const Footer = () => {
   return (
-    <div className="w-full">
-      <footer className="bg-gray-100 text-gray-700 py-6 flex flex-col items-center gap-4">
-        <div className="flex gap-4">
-          <NavLink to="/contact"><IoMailOutline size={30} /></NavLink>
-          <a href="https://www.instagram.com/isabelleauguart/" target="_blank" rel="noopener noreferrer">
-            <IoLogoInstagram size={30} className="" />
-          </a>
-        </div>
-        <div className="text-sm">
-          © 2025 Isabelle Augu. Tous droits réservés.
-        </div>
-      </footer >
-    </div >
+    <footer className="w-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 py-6 flex flex-col items-center gap-4">
+      <div className="flex gap-4">
+        <NavLink to="/contact"><IoMailOutline size={30} /></NavLink>
+        <a href="https://www.instagram.com/isabelleauguart/" target="_blank" rel="noopener noreferrer">
+          <IoLogoInstagram size={30} className="" />
+        </a>
+      </div>
+      <div className="text-sm">
+        © 2025 Isabelle Augu. Tous droits réservés.
+      </div>
+    </footer>
   )
 }
 

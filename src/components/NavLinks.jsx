@@ -2,12 +2,12 @@ import { NavLink } from "react-router-dom"
 
 const linkStyle = ({ isActive }) =>
   isActive
-    ? "underline decoration-2 decoration-black transition-colors duration-300"
-    : "underline decoration-1.5 decoration-transparent hover:decoration-black transition-colors duration-300"
+    ? "underline decoration-2 decoration-black dark:decoration-white transition-colors duration-300"
+    : "underline decoration-1.5 decoration-transparent hover:decoration-black dark:hover:decoration-white transition-colors duration-300"
 
 const NavLinks = ({ onClick }) => {
   return (
-    <ul className="flex flex-col gap-5 text-lg lg:flex-row lg:justify-between lg:w-7/10 lg:text-base lg:gap-0">
+    <ul className="flex flex-col gap-5 text-lg lg:flex-row lg:justify-between lg:w-7/10 lg:gap-0 font-light">
       <li><NavLink to="/" className={linkStyle} onClick={onClick}>accueil</NavLink></li>
       <li><NavLink to="/about" className={linkStyle} onClick={onClick}>à propos</NavLink></li>
       <li><NavLink to="/gallery" className={linkStyle} onClick={onClick}>œuvres</NavLink></li>

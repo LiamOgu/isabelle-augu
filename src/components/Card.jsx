@@ -12,7 +12,7 @@ const Card = ({ id }) => {
             <img src={product.src} alt={product.alt} className="w-full h-full object-cover transition-transform duration-300 hover:scale-105" />
           </figure>
         </div>
-        <div>
+        <div className="text-2xl font-family-primary font-bold">
           {product.title}
         </div>
       </NavLink>
