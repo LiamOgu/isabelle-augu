@@ -80,7 +80,25 @@ import admirable3 from './assets/images/admirable3.jpeg'
 import admirable4 from './assets/images/admirable4.jpeg'
 import admirable5 from './assets/images/admirable5.jpeg'
 
+import nonchalent from './assets/images/n.jpeg'
+import nonchalent2 from './assets/images/n2.jpeg'
+import nonchalent3 from './assets/images/n3.jpeg'
+
+import envole from './assets/images/envole.jpeg'
+import envole2 from './assets/images/envole2.jpeg'
+import envole3 from './assets/images/envole3.jpeg'
+
+import imageAccueil from './assets/images/imageAccueil.png'
+
 const data = {
+  imagesAccueil: [
+    {
+      id: 1,
+      title: "Image d'accueil",
+      src: imageAccueil,
+      alt: "Image d'accueil, tableau intutilé Envolée, acrylique sur toile coton, 150x50 cm. (3 toiles)"
+    }
+  ],
   imagesAbout: [
     {
       id: 1,
@@ -507,7 +525,7 @@ Mais toujours droit comme un i`,
     {
       "id": 17,
       "title": "Nonchalant",
-      "src": null,
+      "src": nonchalent,
       "alt": "Peinture Nonchalant, acrylique sur toile coton, tissus et fils coton, 80x80 cm.",
       "date": "2025",
       "dimensions": "80x80 cm",
@@ -515,12 +533,21 @@ Mais toujours droit comme un i`,
   "description": `Être là, dans la rue bruyante d’expression en tout genre !
 Prendre un instant, s’arrêter, prendre cette pose « nonchalante », regarder là et même au-delà, au-delà de la bulle d’action, il y a la respiration des immobiles, il y a autres choses.
 Une réalité dans une autre et puis une autre. `,
-      "subImages": []
+      "subImages": [
+        {
+          "src": nonchalent2,
+          "alt": "Détail de la peinture Nonchalant, acrylique sur toile coton, tissus et fils coton, 80x80 cm."
+        },
+        {
+          "src": nonchalent3,
+          "alt": "Détail de la peinture Nonchalant, acrylique sur toile coton, tissus et fils coton, 80x80 cm."
+        }
+      ]
     },
     {
       "id": 18,
       "title": "L’envolée (tryptique)",
-      "src": null,
+      "src": envole,
       "alt": "Tryptique L’envolée : plaisir, confiance, détermination. Acrylique sur toile coton, 3 toiles 150x50 cm.",
       "date": "2025",
       "dimensions": "3 toiles 150x50 cm",
@@ -530,7 +557,16 @@ Aujourd’hui, j’ai remis mes ailes, et je me suis envolée, j’ai pris beauc
 J’ai rencontré des formes diverses et variées, pleines de mini formes et de couleurs, des couleurs qui jouent, et qui se mêlent encore et encore, tout le monde, dans une danse folle, se joue bien du théâtre en arrière-plan, c’est ainsi que nait la confiance de tout en tout, tout cela n’est qu’un jeu, en fait !
 Alors, avec détermination, j’ai diffusé des bulles de rêves partout dans mon univers, elles se diffusent en continu et à l’infini !
 Et à présent je vis la vie de mes rêves !`,
-      "subImages": []
+      "subImages": [
+        {
+          "src": envole2,
+          "alt": "Détail du tryptique L’envolée : plaisir, confiance, détermination. Acrylique sur toile coton, 3 toiles 150x50 cm."
+        },
+        {
+          "src": envole3,
+          "alt": "Détail du tryptique L’envolée : plaisir, confiance, détermination. Acrylique sur toile coton, 3 toiles 150x50 cm."
+        }
+      ]
     }
   ]
 };
