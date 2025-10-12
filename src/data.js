@@ -61,6 +61,24 @@ import lojmp from './assets/images/lojmp.jpeg'
 import lojmp2 from './assets/images/lojmp2.jpeg'
 import lojmp3 from './assets/images/lojmp3.jpeg'
 
+import totem1 from './assets/images/totem1.jpeg'
+import totem12 from './assets/images/totem12.jpeg'
+import totem13 from './assets/images/totem13.jpeg'
+import totem14 from './assets/images/totem14.jpeg'
+import totem15 from './assets/images/totem15.jpeg'
+
+import totem2 from './assets/images/totem2.jpeg'
+import totem22 from './assets/images/totem22.jpeg'
+import totem23 from './assets/images/totem23.jpeg'
+import totem24 from './assets/images/totem24.jpeg'
+import totem25 from './assets/images/totem25.jpeg'
+import totems from './assets/images/totems.jpeg'
+
+import admirable from './assets/images/admirable.jpeg'
+import admirable2 from './assets/images/admirable2.jpeg'
+import admirable3 from './assets/images/admirable3.jpeg'
+import admirable4 from './assets/images/admirable4.jpeg'
+import admirable5 from './assets/images/admirable5.jpeg'
 
 const data = {
   imagesAbout: [
@@ -98,7 +116,7 @@ const data = {
       date: "2024",
       dimensions: "50x150 cm",
       technique: "Acrylique sur toile coton",
-      description: "Une œuvre florale vibrante, mêlant couleurs et formes expressives.",
+  description: `Le plaisir de faire un bouquet de fleurs, composé à ma guise, je le place dans un joli vase posé sur une nappe à motif japonisant, le mélange des genres. Avec la peinture je compose mon bouquet imaginaire !`,
       subImages: [
         {
           src: bdf2,
@@ -118,7 +136,7 @@ const data = {
       date: "2024",
       dimensions: "30x30 cm",
       technique: "Acrylique sur toile coton",
-      description: "Une composition intime évoquant la simplicité et la quiétude.",
+  description: `Cet endroit, où tu passes et où tu retournes souvent, parce qu’il est un lieu de paix et de beauté, il est tout petit comme une cachette. Un moment est donc un lieu, un espace de calme et de tranquillité`,
       subImages: [
         {
           src: um2,
@@ -138,7 +156,10 @@ const data = {
       date: "2024",
       dimensions: "40x50 cm",
       technique: "Acrylique sur toile coton",
-      description: "Une œuvre légère et harmonieuse inspirée des sons et du mouvement des oiseaux.",
+  description: `Comme un écho autour de moi, le chant des oiseaux m’emmène dans une danse légère, un sourire sur le visage.
+Ce chant me réveille le matin, m’accompagne tout au long de la journée, lors de mes balades, lorsque je crée ou lors de mes pauses.
+Je prends le temps de l’entendre et j’aime ça !!
+Merci`,
       subImages: [
         {
           src: cdo2,
@@ -166,7 +187,8 @@ const data = {
       date: "2024",
       dimensions: "50x70 cm",
       technique: "Acrylique sur toile coton",
-      description: "Explosion de couleurs et d’énergie florale célébrant la nature.",
+  description: `La célébration des fleurs, construit comme un puzzle, chaque morceaux s’imbriquent parfaitement et forment un ensemble harmonieux et lumineux
+Souvenir des fêtes de village, l’occasion de voir tout le monde sourire, la musique, les manèges, les jeux en plein air, les pommes d’amour, les autos tamponneuses, les barba papas, on y dansait de 7 à 77 ans, tourbillon de joie !`,
       subImages: [
         {
           src: fdf2,
@@ -186,7 +208,7 @@ const data = {
       date: "2024",
       dimensions: "30x30 cm",
       technique: "Acrylique sur toile coton",
-      description: "Un jeu visuel audacieux aux formes et teintes hypnotiques.",
+  description: `Passer du rêve à la réalité ou bien réaliser que tout n’est que rêve !`,
       subImages: [
         {
           src: p2,
@@ -206,7 +228,7 @@ const data = {
       date: "2024",
       dimensions: "80x80 cm",
       technique: "Acrylique sur toile coton",
-      description: "Une œuvre immersive aux tonalités rêveuses et poétiques.",
+  description: `Et tout devient rose comme par magie`,
       subImages: [
         {
           src: e2,
@@ -226,7 +248,10 @@ const data = {
       "date": "2024",
       "dimensions": "40x50 cm",
       "technique": "Acrylique sur toile coton",
-      "description": "Une œuvre personnelle exprimant la singularité et la profondeur de l’artiste.",
+  "description": `Un fils
+Mon enfant, je le regarde, je suis enchantée de l’observer, il a grandi à mes côtés, je l’ai porté sur ma hanche, serré dans mes bras, soigné de ces maux.
+Aujourd’hui, jeune homme, je l’observe encore, du coin de l’œil, je l’encourage et lui fait confiance !
+Amuse-toi mon fils !`,
       "subImages": [
         {
           "src": l2,
@@ -250,7 +275,10 @@ const data = {
       "date": "2024",
       "dimensions": "60x80 cm",
       "technique": "Acrylique sur toile coton",
-      "description": "Une composition dynamique et joyeuse autour du thème floral.",
+  "description": `C’était une nuit, dans l’obscurité, allongée dans ma prairie, des étoiles de mille fleurs !!
+A travers mes créations, je me permets de dire, de penser, de voir ce que bon me semble, je me permets d’en rajouter des tonnes !
+Alors les fleurs, en pleine nuit sont en pure folie dans mes yeux, elles dansent, c’est magnifique !!!
+Au-dessus de moi, dans mon monde, l’obscurité est fleurie de mille étoiles et ça sent bon !!`,
       "subImages": [
         {
           "src": fef2,
@@ -270,7 +298,7 @@ const data = {
       "date": "2024",
       "dimensions": "80x80 cm",
       "technique": "Acrylique sur toile coton",
-      "description": "Une étude graphique du trait et de la forme dans la couleur.",
+  "description": `Je parle de différence, chacun sa couleur, et pourtant, comme elles, nous sommes faits de pigments qui se mêlent et s’entremêlent, c’est complexe, et c’est beau, parce qu’au fond on se ressemble trait pour trait, toi, moi, lui, tous ensemble.`,
       "subImages": [
         {
           "src": tpt2,
@@ -294,7 +322,7 @@ const data = {
       "date": "2025",
       "dimensions": "100x100 cm",
       "technique": "Acrylique sur toile coton",
-      "description": "Une œuvre abstraite illustrant la dispersion et la multiplicité intérieure.",
+  "description": `Bien souvent, dans ma démarche créative, je me perds un peu, je pars dans tous les sens, la plus tard du temps, j’essaie de me recentrer, et parfois, je lâche tout, et c’est très amusant !!!`,
       "subImages": [
         {
           "src": jm2,
@@ -314,7 +342,16 @@ const data = {
       "date": "2025",
       "dimensions": "100x100 cm",
       "technique": "Acrylique sur toile coton",
-      "description": "Réflexion picturale sur la société de consommation et l’éphémère.",
+  "description": `Éloge, haute en couleur, à la consommation !!
+On pourrait n’y voir, à travers ce code barre géant et multicolore, uniquement le geste d’acheter et de payer.
+Je vous amène plus loin, plus large !
+Consommer des moments de vie, où chaque trait de couleur représente un choix !
+Choix d’expérience de vie, la vie te propose et tu consommes ou pas, une actualité, une discussion, une action, les propositions sont très nombreuses et ton choix d’y répondre, comme ci ou comme ça, tout autant
+Tu choisis quoi ?
+Tu prends la paquet bleu, le rouge, le jaune ?
+Et t’es heureux, t’es fatigué, t’es pressé, agacé ?
+Quelle couleur à l’extérieur, quelle couleur à l’intérieur ?
+La vie est un supermarché de propositions qui s’offrent à nous !`,
       "subImages": [
         {
           "src": ac2,
@@ -334,7 +371,7 @@ const data = {
       "date": "2025",
       "dimensions": "80x80 cm",
       "technique": "Acrylique sur toile coton",
-      "description": "Une œuvre lumineuse symbolisant le lien, le partage et la chaleur humaine.",
+  "description": `Le sujet est simple et tellement complexe alors je l’exprime en couches qui se croisent et s’entrecroisent, des traits fins sur traits épais, comme des moments de partages, de rire …`,
       "subImages": [
         {
           "src": a2,
@@ -362,7 +399,7 @@ const data = {
       "date": "2025",
       "dimensions": "80x60 cm",
       "technique": "Acrylique sur toile coton",
-      "description": "Un espace de calme et d’ancrage intérieur, entre repos et contemplation.",
+  "description": `Là où je me pose, est un endroit de création, comme un potager, un large espace, une prairie, l’air y est pur, le ciel dégagé, le soleil brillant, le sol humide, l’herbe verte, les fruits se mêlent aux fleurs, ça pousse de partout, les papillons, les fourmis, les lapins, et les copains y sont les bienvenus. C’est un endroit où tout pousse et tout fleuri.`,
       "subImages": [
         {
           "src": lojmp2,
@@ -377,56 +414,122 @@ const data = {
     {
       "id": 14,
       "title": "Totem 1",
-  "src": bdf,
+  "src": totem1,
       "alt": "Sculpture Totem 1, acrylique sur bois MDF, 6.4x3.5x50 cm.",
       "date": "2025",
       "dimensions": "6.4x3.5x50 cm",
       "technique": "Acrylique sur bois MDF",
-      "description": "Un totem minimaliste jouant sur la verticalité et la matière.",
-      "subImages": []
+  "description": `Dresser, droit comme un i, multifacette carré`,
+      "subImages": [
+        {
+          "src": totem12,
+          "alt": "Détail de la sculpture Totem 1, acrylique sur bois MDF, 6.4x3.5x50 cm."
+        },
+        {
+          "src": totem13,
+          "alt": "Détail de la sculpture Totem 1, acrylique sur bois MDF, 6.4x3.5x50 cm."
+        },
+        {
+          "src": totem14,
+          "alt": "Détail de la sculpture Totem 1, acrylique sur bois MDF, 6.4x3.5x50 cm."
+        },
+        {
+          "src": totem15,
+          "alt": "Détail de la sculpture Totem 1, acrylique sur bois MDF, 6.4x3.5x50 cm."
+        },
+        {
+          "src": totems,
+          "alt": "Les Totems 1 et 2 ensembles, acrylique sur bois MDF, 6.4x3.5x50 cm."
+        }
+      ]
     },
     {
       "id": 15,
       "title": "Totem 2",
-      "src": bdf,
+      "src": totem2,
       "alt": "Sculpture Totem 2, acrylique sur bois MDF, 6.4x3.5x50 cm.",
       "date": "2025",
       "dimensions": "6.4x3.5x50 cm",
       "technique": "Acrylique sur bois MDF",
-      "description": "Second totem de la série, jouant sur les contrastes et l’équilibre.",
-      "subImages": []
+  "description": `X2 pour multiplier les facettes
+Mais toujours droit comme un i`,
+      "subImages": [
+        {
+          "src": totem22,
+          "alt": "Détail de la sculpture Totem 2, acrylique sur bois MDF, 6.4x3.5x50 cm."
+        },
+        {
+          "src": totem23,
+          "alt": "Détail de la sculpture Totem 2, acrylique sur bois MDF, 6.4x3.5x50 cm."
+        },
+        {
+          "src": totem24,
+          "alt": "Détail de la sculpture Totem 2, acrylique sur bois MDF, 6.4x3.5x50 cm."
+        },
+        {
+          "src": totem25,
+          "alt": "Détail de la sculpture Totem 2, acrylique sur bois MDF, 6.4x3.5x50 cm."
+        },
+        {
+          "src": totems,
+          "alt": "Les Totems 1 et 2 ensembles, acrylique sur bois MDF, 6.4x3.5x50 cm."
+        }
+      ]
     },
     {
       "id": 16,
       "title": "Admirable (recto/verso)",
-      "src": bdf,
+      "src": admirable,
       "alt": "Œuvre Admirable, acrylique sur bois MDF, 34.5x33.5 cm, recto/verso.",
       "date": "2025",
       "dimensions": "34.5x33.5 cm",
       "technique": "Acrylique sur bois MDF",
-      "description": "Une pièce recto-verso jouant sur la dualité et la perception.",
-      "subImages": []
+  "description": `Je voulais que tu m’admires, de tous les côtés !`,
+      "subImages": [
+        {
+          "src": admirable2,
+          "alt": "Détail de l'œuvre Admirable, acrylique sur bois MDF, 34.5x33.5 cm, recto/verso."
+        },
+        {
+          "src": admirable3,
+          "alt": "Détail de l'œuvre Admirable, acrylique sur bois MDF, 34.5x33.5 cm, recto/verso."
+        },
+        {
+          "src": admirable4,
+          "alt": "Détail de l'œuvre Admirable, acrylique sur bois MDF, 34.5x33.5 cm, recto/verso."
+        },
+        {
+          "src": admirable5,
+          "alt": "Détail de l'œuvre Admirable, acrylique sur bois MDF, 34.5x33.5 cm, recto/verso."
+        }
+      ]
     },
     {
       "id": 17,
       "title": "Nonchalant",
-      "src": bdf,
+      "src": null,
       "alt": "Peinture Nonchalant, acrylique sur toile coton, tissus et fils coton, 80x80 cm.",
       "date": "2025",
       "dimensions": "80x80 cm",
       "technique": "Acrylique sur toile coton, tissus et fils coton",
-      "description": "Une œuvre texturée exprimant la liberté du geste et la douceur du textile.",
+  "description": `Être là, dans la rue bruyante d’expression en tout genre !
+Prendre un instant, s’arrêter, prendre cette pose « nonchalante », regarder là et même au-delà, au-delà de la bulle d’action, il y a la respiration des immobiles, il y a autres choses.
+Une réalité dans une autre et puis une autre. `,
       "subImages": []
     },
     {
       "id": 18,
       "title": "L’envolée (tryptique)",
-      "src": bdf,
+      "src": null,
       "alt": "Tryptique L’envolée : plaisir, confiance, détermination. Acrylique sur toile coton, 3 toiles 150x50 cm.",
       "date": "2025",
       "dimensions": "3 toiles 150x50 cm",
       "technique": "Acrylique sur toile coton",
-      "description": "Un triptyque évoquant l’ascension intérieure à travers plaisir, confiance et détermination.",
+  "description": `Dans la grande pièce de théâtre de la vie !
+Aujourd’hui, j’ai remis mes ailes, et je me suis envolée, j’ai pris beaucoup de plaisir pendant ce voyage, j’ai rencontré des fleurs géantes qui explosent de rire, et moi avec elles, elles sont si drôles, elles m’ont fait perdre le sens du raisonnable, ça fait du bien !
+J’ai rencontré des formes diverses et variées, pleines de mini formes et de couleurs, des couleurs qui jouent, et qui se mêlent encore et encore, tout le monde, dans une danse folle, se joue bien du théâtre en arrière-plan, c’est ainsi que nait la confiance de tout en tout, tout cela n’est qu’un jeu, en fait !
+Alors, avec détermination, j’ai diffusé des bulles de rêves partout dans mon univers, elles se diffusent en continu et à l’infini !
+Et à présent je vis la vie de mes rêves !`,
       "subImages": []
     }
   ]
