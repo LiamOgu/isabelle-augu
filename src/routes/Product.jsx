@@ -6,6 +6,7 @@ import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import { Helmet } from "react-helmet";
 
 const Product = () => {
   const [open, setOpen] = useState(false)
@@ -25,6 +26,10 @@ const Product = () => {
 
   return (
     <div className="flex flex-col items-center">
+      <Helmet>
+        <title>{product.title} - Isabelle Augu</title>
+        <meta name="description" content="Découvrez le parcours et l'univers créatif d'Isabelle Augu." />
+      </Helmet>
       <Header title="Isabelle Augu" />
       <h2 className="text-3xl mb-4 md:hidden">{product.title}</h2>
       <div className="w-11/12 md:w-2/3 flex flex-col md:flex-row">
