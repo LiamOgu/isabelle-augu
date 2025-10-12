@@ -1,6 +1,6 @@
 import { useSearchParams } from "react-router-dom"
 import { useState } from "react"
-import data from "../data.json"
+import data from "../data.js";
 import Images from "../components/Images"
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"

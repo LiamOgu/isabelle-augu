@@ -1,4 +1,4 @@
-import data from "../data.json"
+import data from "../data.js";
 
 const Images = ({ id, imageType, className = "", onClick }) => {
   // mapping imageType → tableau correspondant

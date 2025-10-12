@@ -1,6 +1,6 @@
 import Images from "./Images"
 import { NavLink } from "react-router-dom"
-import data from "../data.json"
+import data from "../data.js";
 
 const Card = ({ id }) => {
   const product = data["imagesGallery"].find(product => product.id === id)

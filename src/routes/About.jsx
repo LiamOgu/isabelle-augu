@@ -82,7 +82,7 @@ const About = () => {
         <div className="flex flex-col gap-12 md:w-6/10 lg:w-5/10 lg:gap-20">
           {aboutSections.map((section, index) => (
             <div key={index} className="flex flex-col lg:flex items-center lg:gap-8">
-              <p className={`leading-relaxed mb-12 ${index === 0 ? "text-xl font-medium md:text-2xl" : ""}`}>{section.text}</p>
+              <p className={`leading-relaxed mb-12 ${index === 0 ? "text-lg font-medium md:text-xl" : ""}`}>{section.text}</p>
               {section.imageId && <Images id={section.imageId} imageType="about" className="md:hidden w-50 md:w-60 lg:w-65" />}
             </div>
           ))}
@@ -91,9 +91,9 @@ const About = () => {
         {/* Colonne d’images sur desktop */}
         <div className="hidden md:flex flex-col justify-between items-stretch w-4/10">
           <Images id={1} imageType="about" className="w-50 md:w-60 lg:w-65" />
-          <Images id={2} imageType="about" className="w-50 md:w-60 lg:w-65"/>
-          <Images id={3} imageType="about" className="w-50 md:w-60 lg:w-65"/>
-          <Images id={4} imageType="about" className="w-50 md:w-60 lg:w-65"/>
+          <Images id={2} imageType="about" className="w-50 md:w-60 lg:w-65" />
+          <Images id={3} imageType="about" className="w-50 md:w-60 lg:w-65" />
+          <Images id={4} imageType="about" className="w-50 md:w-60 lg:w-65" />
         </div>
       </main>
       <Footer />
