@@ -90,6 +90,8 @@ import envole3 from './assets/images/envole3.jpeg'
 
 import imageAccueil from './assets/images/imageAccueil.png'
 
+import expocrepchignon from './assets/images/expocrepchignon.png'
+
 const data = {
   imagesAccueil: [
     {
@@ -97,6 +99,14 @@ const data = {
       title: "Image d'accueil",
       src: imageAccueil,
       alt: "Image d'accueil, tableau intutilé Envolée, acrylique sur toile coton, 150x50 cm. (3 toiles)"
+    }
+  ],
+  imagesActuality: [
+    {
+      id: 1,
+      title: "Expo Crep'Chignon",
+      src: expocrepchignon,
+      alt: "Affiche de l'exposition au Crep'Chignon à Cornebarrieu à partir du 15 octobre 2025."
     }
   ],
   imagesAbout: [

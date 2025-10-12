@@ -1,4 +1,4 @@
-import Card from "../components/Card.jsx"
+import Card from "../components/GalleryCard.jsx"
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 import { Helmet } from "react-helmet";
@@ -6,7 +6,7 @@ import data from "../data.js"
 
 const Gallery = () => {
   // tu peux automatiser la génération plus tard
-  const ids = Array.from({ length: data.imagesGallery.length }, (_, i) => i + 1)
+  const imagesArray = Array.from({ length: data.imagesGallery.length }, (_, i) => i + 1)
 
   return (
     <div className="flex flex-col min-h-screen items-center w-full">
@@ -26,7 +26,7 @@ const Gallery = () => {
             place-items-center
           "
         >
-          {ids.slice().reverse().map(id => (
+          {imagesArray.slice().reverse().map(id => (
             <Card key={id} id={id} />
           ))}
         </div>

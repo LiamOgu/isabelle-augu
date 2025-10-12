@@ -1,4 +1,4 @@
-import Images from "./Images"
+import Images from "./Images.jsx"
 import { NavLink } from "react-router-dom"
 import data from "../data.js";
 
