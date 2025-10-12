@@ -7,7 +7,7 @@ const linkStyle = ({ isActive }) =>
 
 const NavLinks = ({ onClick }) => {
   return (
-    <ul className="flex flex-col gap-5 text-lg md:flex-row md:justify-between md:w-7/10 md:text-base md:gap-0">
+    <ul className="flex flex-col gap-5 text-lg lg:flex-row lg:justify-between lg:w-7/10 lg:text-base lg:gap-0">
       <li><NavLink to="/" className={linkStyle} onClick={onClick}>accueil</NavLink></li>
       <li><NavLink to="/about" className={linkStyle} onClick={onClick}>à propos</NavLink></li>
       <li><NavLink to="/gallery" className={linkStyle} onClick={onClick}>œuvres</NavLink></li>

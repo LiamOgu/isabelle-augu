@@ -13,7 +13,7 @@ const Home = () => {
       </Helmet>
       <div id="homePage" className="flex justify-center items-center flex-col mb-12">
         <Header title="Isabelle Augu" />
-        <main className="md:w-8/10">
+        <main className="w-full md:w-8/10">
           <div className="flex justify-center items-center w-full h-150 bg-amber-100">
             Image en attente
           </div>
