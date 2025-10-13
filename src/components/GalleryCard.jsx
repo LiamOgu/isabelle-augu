@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom"
 import data from "../data.js"
 import { motion } from "motion/react"
 import { LazyLoadImage } from "react-lazy-load-image-component"
-import "react-lazy-load-image-component/src/effects/blur.css"
 
 const Card = ({ id }) => {
   const product = data["imagesGallery"].find(product => product.id === id)
@@ -12,7 +11,7 @@ const Card = ({ id }) => {
   return (
     <motion.div
       className="flex flex-col gap-3 p-3 max-w-fit max-h-fit"
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
     >

@@ -84,7 +84,7 @@ const About = () => {
       <Header title="à propos" />
 
       <motion.main className="flex flex-col md:flex-row justify-center w-8/10 py-10 gap-12 flex-grow"
-        initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >

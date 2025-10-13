@@ -1,11 +1,8 @@
 import { Link } from "react-router-dom"
 import { Helmet } from "react-helmet";
-import Navbar from "../components/Navbar.jsx"
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
-import data from "../data.js";
 import HomeMainSection from "../components/HomeMainSection.jsx";
-import { motion } from "motion/react"
 
 const Home = () => {
   return (
