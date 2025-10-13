@@ -3,6 +3,7 @@ import Images from "../components/Images.jsx"
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 import { Helmet } from "react-helmet";
+import { motion } from "motion/react"
 
 const aboutSections = [
   {
@@ -82,12 +83,16 @@ const About = () => {
       </Helmet>
       <Header title="à propos" />
 
-      <main className="flex flex-col md:flex-row justify-center w-8/10 py-10 gap-12 flex-grow">
+      <motion.main className="flex flex-col md:flex-row justify-center w-8/10 py-10 gap-12 flex-grow"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
         {/* Texte + images mobiles */}
         <div className="flex flex-col gap-5 md:w-6/10 lg:w-5/10 lg:gap-1 mt-10">
           {aboutSections.map((section, index) => (
             <div key={index} className="flex flex-col lg:flex lg:gap-8">
-              <p className={`leading-relaxed mb-12 text-md font-light ${index === 0 ? "" : ""}`}>{section.text}</p>
+              <p className="leading-relaxed mb-12 text-md font-light">{section.text}</p>
               {section.imageId && <Images id={section.imageId} imageType="about" className="md:hidden w-50 md:w-60 lg:w-65" />}
             </div>
           ))}
@@ -100,7 +105,7 @@ const About = () => {
           <Images id={3} imageType="about" className="w-50 md:w-45 lg:w-45" />
           <Images id={4} imageType="about" className="w-50 md:w-45 lg:w-45" />
         </div>
-      </main>
+      </motion.main>
       <Footer />
     </div>
   )
