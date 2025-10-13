@@ -88,7 +88,7 @@ import envole from './assets/images/envole.jpeg'
 import envole2 from './assets/images/envole2.jpeg'
 import envole3 from './assets/images/envole3.jpeg'
 
-import imageAccueil from './assets/images/imageAccueil.png'
+import imageAccueil from './assets/images/imageAccueil.webp'
 
 import expocrepchignon from './assets/images/expocrepchignon.png'
 
