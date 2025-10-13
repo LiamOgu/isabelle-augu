@@ -31,7 +31,7 @@ const Product = () => {
         <meta name="description" content="Découvrez le parcours et l'univers créatif d'Isabelle Augu." />
       </Helmet>
       <Header title="Isabelle Augu" />
-      <h2 className="text-3xl mb-4 md:hidden">{product.title}</h2>
+      <h2 className="text-3xl mb-4 md:hidden font-family-primary font-bold">{product.title}</h2>
       <div className="w-11/12 md:w-2/3 flex flex-col md:flex-row flex-grow">
         <div className="flex flex-col gap-5 p-6 md:w-2/3">
           {/* Image principale */}
