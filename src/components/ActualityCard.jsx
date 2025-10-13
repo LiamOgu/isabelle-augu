@@ -3,6 +3,8 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import { useState } from "react"
 import { motion } from "motion/react"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const ActualityCard = ({ id }) => {
   const [open, setOpen] = useState(false)
@@ -15,7 +17,11 @@ const ActualityCard = ({ id }) => {
     >
       <div className="flex items-center justify-center aspect-[1/1] w-full max-w-[300px] cursor-pointer m-4" onClick={() => setOpen(true)}>
         <figure className="w-full h-full">
-          <img src={imageActuality.src} alt={imageActuality.alt} className="w-full h-full object-cover transition-transform duration-300 hover:scale-105" />
+          <LazyLoadImage
+            src={imageActuality.src}
+            alt={imageActuality.alt}
+            className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+          />
         </figure>
       </div>
       <Lightbox
