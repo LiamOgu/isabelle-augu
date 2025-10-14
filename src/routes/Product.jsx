@@ -1,13 +1,12 @@
 import { useSearchParams } from "react-router-dom"
 import { useState } from "react"
-import data from "../data.js";
-import Images from "../components/Images"
+import data from "../data/galleryData.js";
+import Images from "../components/ImagesProduct.jsx"
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import { Helmet } from "react-helmet";
-import { motion } from "motion/react"
 
 const Product = () => {
   const [open, setOpen] = useState(false)
@@ -15,6 +14,8 @@ const Product = () => {
   const [searchParams] = useSearchParams()
   const title = searchParams.get("title")
   const product = data["imagesGallery"].find(product => product.title === title)
+
+
 
   if (!product) return <div>Produit non trouvé.</div>
 
@@ -30,13 +31,9 @@ const Product = () => {
         <meta name="description" content="Découvrez le parcours et l'univers créatif d'Isabelle Augu." />
       </Helmet>
       <Header title="Isabelle Augu" />
-      <h2 className="text-3xl mb-4 md:hidden font-family-primary font-bold">{product.title}</h2>
+      <h2 className="text-3xl mb-4 md:hidden">{product.title}</h2>
       <div className="w-11/12 md:w-2/3 flex flex-col md:flex-row flex-grow">
-        <motion.div className="flex flex-col gap-5 p-6 md:w-2/3"
-          initial={{ opacity: 0, filter: "blur(2px)" }}
-          animate={{ opacity: 1, filter: "blur(0)" }}
-          transition={{ duration: 0.25 }}
-        >
+        <div className="flex flex-col gap-5 p-6 md:w-2/3">
           {/* Image principale */}
           <Images id={product.id} imageType="gallery" className="w-full overflow-hidden" onClick={() => { setIndex(0); setOpen(true) }} />
           {/* Sous-images */}
@@ -51,7 +48,7 @@ const Product = () => {
               </div>
             ))}
           </div>
-        </motion.div>
+        </div>
         <div className="flex flex-col gap-4 p-6 md:w-2/5">
           {/* Informations produit */}
           <h2 className="hidden md:block md:text-4xl mb-4 font-family-primary font-bold">{product.title}</h2>

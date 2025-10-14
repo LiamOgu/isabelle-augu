@@ -2,7 +2,7 @@ import Card from "../components/GalleryCard.jsx"
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 import { Helmet } from "react-helmet";
-import data from "../data.js"
+import data from "../data/galleryData.js";
 
 const Gallery = () => {
   // tu peux automatiser la génération plus tard
@@ -16,13 +16,14 @@ const Gallery = () => {
       </Helmet>
       <Header title="galerie" />
 
-      <main className="w-full md:max-w-7xl md:px-6 py-12 flex-grow">
+      <main className="md:max-w-7xl md:px-6 py-12 flex-grow">
         <div
           className="
             grid 
             gap-6 
-            md:grid-cols-3 
-            lg:grid-cols-4 
+            md:grid-cols-2
+            lg:grid-cols-3 
+            xl:grid-cols-4 
             place-items-center
           "
         >

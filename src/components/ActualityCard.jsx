@@ -1,10 +1,9 @@
-import data from "../data.js";
+import data from "../data/actualityData.js";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import { useState } from "react"
 import { motion } from "motion/react"
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const ActualityCard = ({ id }) => {
   const [open, setOpen] = useState(false)

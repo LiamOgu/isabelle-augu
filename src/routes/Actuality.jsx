@@ -2,7 +2,7 @@ import Footer from "../components/Footer.jsx"
 import Header from "../components/Header.jsx"
 import { Helmet } from "react-helmet";
 import ActualityCard from "../components/ActualityCard.jsx"
-import data from "../data.js";
+import data from "../data/actualityData.js";
 
 const Actuality = () => {
   const imagesArray = Array.from({ length: data.imagesActuality.length }, (_, i) => i + 1)

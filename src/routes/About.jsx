@@ -1,9 +1,9 @@
 import Navbar from "../components/Navbar"
-import Images from "../components/Images.jsx"
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 import { Helmet } from "react-helmet";
 import { motion } from "motion/react"
+import data from "../data/aboutData"
 
 const aboutSections = [
   {
@@ -75,6 +75,11 @@ const aboutSections = [
 ]
 
 const About = () => {
+  // Get images from gallery data for about section (using first 4 images)
+  const getAboutImage = (id) => {
+    return data?.imagesAbout?.find(img => img.id === id)
+  }
+
   return (
     <div id="homePage" className="flex flex-col min-h-screen items-center">
       <Helmet>
@@ -93,17 +98,33 @@ const About = () => {
           {aboutSections.map((section, index) => (
             <div key={index} className="flex flex-col lg:flex lg:gap-8">
               <p className="leading-relaxed mb-12 text-md font-light">{section.text}</p>
-              {section.imageId && <Images id={section.imageId} imageType="about" className="md:hidden w-50 md:w-60 lg:w-65" />}
+              {section.imageId && (
+                <div className="md:hidden w-50 md:w-60 lg:w-65 flex items-center justify-center">
+                  <img
+                    src={getAboutImage(section.imageId)?.src}
+                    alt={getAboutImage(section.imageId)?.alt || `Image ${section.imageId}`}
+                    className="w-full h-auto object-contain"
+                  />
+                </div>
+              )}
             </div>
           ))}
         </div>
 
-        {/* Colonne d’images sur desktop */}
+        {/* Colonne d'images sur desktop */}
         <div className="hidden md:flex flex-col justify-between items-stretch w-4/10 ml-10 lg:w-3/10 lg:ml-20 gap-6">
-          <Images id={1} imageType="about" className="w-50 md:w-45 lg:w-45" />
-          <Images id={2} imageType="about" className="w-50 md:w-45 lg:w-45" />
-          <Images id={3} imageType="about" className="w-50 md:w-45 lg:w-45" />
-          <Images id={4} imageType="about" className="w-50 md:w-45 lg:w-45" />
+          {[1, 2, 3, 4].map(id => {
+            const img = getAboutImage(id);
+            return img ? (
+              <div key={id} className="w-50 md:w-45 lg:w-45 flex items-center justify-center">
+                <img
+                  src={img.src}
+                  alt={img.alt || `Image ${id}`}
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            ) : null;
+          })}
         </div>
       </motion.main>
       <Footer />

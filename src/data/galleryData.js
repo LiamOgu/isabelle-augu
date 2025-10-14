@@ -1,130 +1,89 @@
-import photo1 from './assets/images/photo1.jpg'
-import photo2 from './assets/images/photo2.jpg'
-import photo3 from './assets/images/photo3.jpg'
-import photo4 from './assets/images/photo4.jpg'
+import um from '../assets/images/um.jpeg'
+import um2 from '../assets/images/um2.jpeg'
+import um3 from '../assets/images/um3.jpeg'
 
-import um from './assets/images/um.jpeg'
-import um2 from './assets/images/um2.jpeg'
-import um3 from './assets/images/um3.jpeg'
+import bdf from '../assets/images/bdf.jpeg'
+import bdf2 from '../assets/images/bdf2.jpeg'
+import bdf3 from '../assets/images/bdf3.jpeg'
 
-import bdf from './assets/images/bdf.jpeg'
-import bdf2 from './assets/images/bdf2.jpeg'
-import bdf3 from './assets/images/bdf3.jpeg'
+import cdo from '../assets/images/cdo.jpeg'
+import cdo2 from '../assets/images/cdo2.jpeg'
+import cdo3 from '../assets/images/cdo3.jpeg'
+import cdo4 from '../assets/images/cdo4.jpeg'
+import cdo5 from '../assets/images/cdo5.jpeg'
 
-import cdo from './assets/images/cdo.jpeg'
-import cdo2 from './assets/images/cdo2.jpeg'
-import cdo3 from './assets/images/cdo3.jpeg'
-import cdo4 from './assets/images/cdo4.jpeg'
-import cdo5 from './assets/images/cdo5.jpeg'
+import fdf from '../assets/images/fdf.jpeg'
+import fdf2 from '../assets/images/fdf2.jpeg'
+import fdf3 from '../assets/images/fdf3.jpeg'
 
-import fdf from './assets/images/fdf.jpeg'
-import fdf2 from './assets/images/fdf2.jpeg'
-import fdf3 from './assets/images/fdf3.jpeg'
+import p from '../assets/images/p.jpeg'
+import p2 from '../assets/images/p2.jpeg'
+import p3 from '../assets/images/p3.jpeg'
 
-import p from './assets/images/p.jpeg'
-import p2 from './assets/images/p2.jpeg'
-import p3 from './assets/images/p3.jpeg'
+import e from '../assets/images/e.jpeg'
+import e2 from '../assets/images/e2.jpeg'
+import e3 from '../assets/images/e3.jpeg'
 
-import e from './assets/images/e.jpeg'
-import e2 from './assets/images/e2.jpeg'
-import e3 from './assets/images/e3.jpeg'
+import l from '../assets/images/l.jpeg'
+import l2 from '../assets/images/l2.jpeg'
+import l3 from '../assets/images/l3.jpeg'
+import l4 from '../assets/images/l4.jpeg'
 
-import l from './assets/images/l.jpeg'
-import l2 from './assets/images/l2.jpeg'
-import l3 from './assets/images/l3.jpeg'
-import l4 from './assets/images/l4.jpeg'
+import fef from '../assets/images/fef.jpeg'
+import fef2 from '../assets/images/fef2.jpeg'
+import fef3 from '../assets/images/fef3.jpeg'
 
-import fef from './assets/images/fef.jpeg'
-import fef2 from './assets/images/fef2.jpeg'
-import fef3 from './assets/images/fef3.jpeg'
+import tpt from '../assets/images/tpt.jpeg'
+import tpt2 from '../assets/images/tpt2.jpeg'
+import tpt3 from '../assets/images/tpt3.jpeg'
+import tpt4 from '../assets/images/tpt4.jpeg'
 
-import tpt from './assets/images/tpt.jpeg'
-import tpt2 from './assets/images/tpt2.jpeg'
-import tpt3 from './assets/images/tpt3.jpeg'
-import tpt4 from './assets/images/tpt4.jpeg'
+import jm from '../assets/images/jm.jpeg'
+import jm2 from '../assets/images/jm2.jpeg'
+import jm3 from '../assets/images/jm3.jpeg'
 
-import jm from './assets/images/jm.jpeg'
-import jm2 from './assets/images/jm2.jpeg'
-import jm3 from './assets/images/jm3.jpeg'
+import ac from '../assets/images/ac.jpeg'
+import ac2 from '../assets/images/ac2.jpeg'
+import ac3 from '../assets/images/ac3.jpeg'
 
-import ac from './assets/images/ac.jpeg'
-import ac2 from './assets/images/ac2.jpeg'
-import ac3 from './assets/images/ac3.jpeg'
+import a from '../assets/images/a.jpeg'
+import a2 from '../assets/images/a2.jpeg'
+import a3 from '../assets/images/a3.jpeg'
+import a4 from '../assets/images/a4.jpeg'
+import a5 from '../assets/images/a5.jpeg'
 
-import a from './assets/images/a.jpeg'
-import a2 from './assets/images/a2.jpeg'
-import a3 from './assets/images/a3.jpeg'
-import a4 from './assets/images/a4.jpeg'
-import a5 from './assets/images/a5.jpeg'
+import lojmp from '../assets/images/lojmp.jpeg'
+import lojmp2 from '../assets/images/lojmp2.jpeg'
+import lojmp3 from '../assets/images/lojmp3.jpeg'
 
-import lojmp from './assets/images/lojmp.jpeg'
-import lojmp2 from './assets/images/lojmp2.jpeg'
-import lojmp3 from './assets/images/lojmp3.jpeg'
+import totem1 from '../assets/images/totem1.jpeg'
+import totem12 from '../assets/images/totem12.jpeg'
+import totem13 from '../assets/images/totem13.jpeg'
+import totem14 from '../assets/images/totem14.jpeg'
+import totem15 from '../assets/images/totem15.jpeg'
 
-import totem1 from './assets/images/totem1.jpeg'
-import totem12 from './assets/images/totem12.jpeg'
-import totem13 from './assets/images/totem13.jpeg'
-import totem14 from './assets/images/totem14.jpeg'
-import totem15 from './assets/images/totem15.jpeg'
+import totem2 from '../assets/images/totem2.jpeg'
+import totem22 from '../assets/images/totem22.jpeg'
+import totem23 from '../assets/images/totem23.jpeg'
+import totem24 from '../assets/images/totem24.jpeg'
+import totem25 from '../assets/images/totem25.jpeg'
+import totems from '../assets/images/totems.jpeg'
 
-import totem2 from './assets/images/totem2.jpeg'
-import totem22 from './assets/images/totem22.jpeg'
-import totem23 from './assets/images/totem23.jpeg'
-import totem24 from './assets/images/totem24.jpeg'
-import totem25 from './assets/images/totem25.jpeg'
-import totems from './assets/images/totems.jpeg'
+import admirable from '../assets/images/admirable.jpeg'
+import admirable2 from '../assets/images/admirable2.jpeg'
+import admirable3 from '../assets/images/admirable3.jpeg'
+import admirable4 from '../assets/images/admirable4.jpeg'
+import admirable5 from '../assets/images/admirable5.jpeg'
 
-import admirable from './assets/images/admirable.jpeg'
-import admirable2 from './assets/images/admirable2.jpeg'
-import admirable3 from './assets/images/admirable3.jpeg'
-import admirable4 from './assets/images/admirable4.jpeg'
-import admirable5 from './assets/images/admirable5.jpeg'
+import nonchalent from '../assets/images/n.jpeg'
+import nonchalent2 from '../assets/images/n2.jpeg'
+import nonchalent3 from '../assets/images/n3.jpeg'
 
-import nonchalent from './assets/images/n.jpeg'
-import nonchalent2 from './assets/images/n2.jpeg'
-import nonchalent3 from './assets/images/n3.jpeg'
-
-import envole from './assets/images/envole.jpeg'
-import envole2 from './assets/images/envole2.jpeg'
-import envole3 from './assets/images/envole3.jpeg'
-
-import expocrepchignon from './assets/images/expocrepchignon.png'
+import envole from '../assets/images/envole.jpeg'
+import envole2 from '../assets/images/envole2.jpeg'
+import envole3 from '../assets/images/envole3.jpeg'
 
 const data = {
-  imagesActuality: [
-    {
-      id: 1,
-      title: "Expo Crep'Chignon",
-      src: expocrepchignon,
-      alt: "Affiche de l'exposition au Crep'Chignon à Cornebarrieu à partir du 15 octobre 2025."
-    }
-  ],
-  imagesAbout: [
-    {
-      id: 1,
-      title: "Photos 1",
-      src: photo1,
-      alt: "A beautiful sunset over the mountains."
-    },
-    {
-      id: 2,
-      title: "Photos 2",
-      src: photo2,
-      alt: "A bustling cityscape at night."
-    },
-    {
-      id: 3,
-      title: "Photos 3",
-      src: photo3,
-      alt: "A peaceful forest with tall trees."
-    },
-    {
-      id: 4,
-      title: "Photos 4",
-      src: photo4,
-      alt: "A majestic waterfall in a tropical setting."
-    }
-  ],
   imagesGallery: [
     {
   id: 1,
