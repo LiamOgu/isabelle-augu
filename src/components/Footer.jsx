@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom"
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 py-6 flex flex-col items-center gap-4">
+    <footer className="w-full bg-gray-100 text-gray-700 py-6 flex flex-col items-center gap-4">
       <div className="flex gap-4">
         <NavLink to="/contact"><IoMailOutline size={30} /></NavLink>
         <a href="https://www.instagram.com/isabelleauguart/" target="_blank" rel="noopener noreferrer">

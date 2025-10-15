@@ -7,7 +7,7 @@ const ContactForm = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="m-10 p-10 rounded-lg shadow-lg w-full text-center text-xl font-light bg-white dark:bg-gray-800">
+      <div className="m-10 p-10 rounded-lg shadow-lg w-full text-center text-xl font-light bg-white">
         <p>Si vous avez besoin d'un renseignement vous pouvez me contacter par mail à l'adresse suivante : </p>
         <br />
         <a href="mailto:isabelleauguart@gmail.com" className="text-blue-500">isabelleauguart@gmail.com</a>

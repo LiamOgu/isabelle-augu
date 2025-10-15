@@ -16,7 +16,7 @@ const HamburgerComponent = () => {
         {isOpen && (
           <motion.div
             key="mobile-menu"
-            className="fixed top-0 right-0 w-screen h-screen bg-white dark:bg-gray-950 flex flex-col items-center justify-center gap-8 z-10"
+            className="fixed top-0 right-0 w-screen h-screen bg-white flex flex-col items-center justify-center gap-8 z-10"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}

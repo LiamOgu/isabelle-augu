@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom"
 
 const linkStyle = ({ isActive }) =>
   isActive
-    ? "underline decoration-2 decoration-black dark:decoration-white transition-colors duration-300"
-    : "underline decoration-1.5 decoration-transparent hover:decoration-black dark:hover:decoration-white transition-colors duration-300"
+    ? "underline decoration-2 decoration-black transition-colors duration-300"
+    : "underline decoration-1.5 decoration-transparent hover:decoration-black transition-colors duration-300"
 
 const NavLinks = ({ onClick }) => {
   return (
