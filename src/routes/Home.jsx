@@ -8,8 +8,8 @@ const Home = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Helmet>
-        <title>Accueil - Isabelle Augu</title>
-        <meta name="description" content="Bienvenue sur la page d'accueil de mon site, découvrez nos services et actualités." />
+        <title>Isabelle Augu</title>
+        <meta name="description" content="Bienvenue sur mon site, découvrez mes œuvres et mes actualités." />
       </Helmet>
       <div id="homePage" className="flex justify-center items-center flex-col mb-12 flex-grow">
         <Header title="isabelle augu" textColor="text-purple-900" />
