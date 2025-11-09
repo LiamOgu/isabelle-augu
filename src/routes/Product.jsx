@@ -1,5 +1,5 @@
 import { useSearchParams } from "react-router-dom"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import data from "../data/galleryData.js";
 import Images from "../components/ImagesProduct.jsx"
 import Header from "../components/Header.jsx"
@@ -15,7 +15,9 @@ const Product = () => {
   const title = searchParams.get("title")
   const product = data["imagesGallery"].find(product => product.title === title)
 
-
+  useEffect(() => {
+    window.scrollTo(0, 150)
+  }, [])
 
   if (!product) return <div>Produit non trouvé.</div>
 
