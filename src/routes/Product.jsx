@@ -16,7 +16,7 @@ const Product = () => {
   const product = data["imagesGallery"].find(product => product.title === title)
 
   useEffect(() => {
-    window.scrollTo(0, 150)
+    window.scrollTo(0, 0)
   }, [])
 
   if (!product) return <div>Produit non trouvé.</div>
